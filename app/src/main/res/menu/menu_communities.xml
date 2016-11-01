@@ -1,0 +1,24 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="mx.org.bamx.sigo.CommunityActivity">
+
+    <item
+        android:id="@+id/sync_now"
+        android:title="@string/sync_now"
+        android:icon="@drawable/ic_sync_white_24dp"
+        android:actionViewClass="android.widget.ImageView"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="1"
+        android:title="@string/action_settings"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/log_out"
+        android:orderInCategory="2"
+        android:title="@string/log_out"
+        app:showAsAction="never" />
+</menu>

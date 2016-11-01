@@ -1,0 +1,90 @@
+<resources>
+     <string name="app_name">SIGO</string>
+     <string name="action_settings">Ajustes</string> 
+    <string name="title_activity_scrolling">Añadir nueva entrada</string> 
+    <string name="title_activity_login">Ingresar</string> 
+    <string name="sync_now">Sincronizar ahora</string>
+     <string name="log_out">Cerrar sesion</string>
+     <string name="confirm_log_out">Esta seguro que desea cerrar la sesion?</string>
+
+          <!-- Strings related to login --> 
+
+    <string name="prompt_email">Email</string> 
+    <string name="prompt_user">Usuario</string> 
+    <string name="prompt_password">Contraseña</string> 
+    <string name="action_sign_in">Inicia sesión o registrate</string> 
+    <string name="action_sign_in_short">Inicia sesion</string> 
+    <string name="error_invalid_user">Este usuario es invalido</string>
+     <string name="error_invalid_password">Esta contraseña es muy corta</string> 
+    <string name="error_incorrect_password">Esta contraseña es incorrecta</string> 
+    <string name="error_field_required">Este campo es requerido</string> 
+    <string name="permission_rationale">"Se necesitan permisos de contactos para proporcionar terminaciones de correo electrónico" </string>
+     <string name="yes">Si</string>
+     <string name="no">No</string>
+
+
+           <!-- Strings related to Settings --> 
+
+    <string name="title_activity_settings">Ajustes</string> 
+    <string name="language_pref">Seleccionar idioma</string>
+     
+    <string-array name="pref_language_titles"> <item>inglés</item> <item>Español</item> 
+    </string-array>
+     
+    <string-array name="pref_language_values">
+         <item>en</item> 
+        <item>es</item> 
+    </string-array>
+
+      <string name="pref_title_sync_frequency">Frecuencia de sincronización</string> 
+
+    <string-array name="pref_sync_frequency_titles">
+        <item>30 minutos</item>
+         <item>1 hora</item> 
+        <item>3 horas</item>
+         <item>6 horas</item>
+         <item>10 horas</item> 
+    </string-array>
+     
+    <string-array name="pref_sync_frequency_values">
+        <item>1800000</item>
+         <item>3600000</item>
+         <item>10800000</item>
+         <item>21600000</item> 
+         <item>36000000</item> 
+    </string-array>
+
+     <string name="pref_automatic_sync">Sincornizacion automatica</string>
+
+
+          <!-- Strings related to the socio economic questionnaire --> 
+
+    <string name="save">Guardar</string> 
+    <string name="hungryInBed">A menudo se va a la cama con hambre?</string>
+     
+    <string name="skippedMeals">Cuántas comidas ha sido forzado a saltar en el último mes?</string>
+     <string name="nameOfFamilyMember">Nombre del representante de familia?</string> 
+    <string name="name">Nombre</string>
+     <string name="nameOfCommunity">A que comunidad pertenece la familia?</string>
+     <string name="community">Comunidad</string>  
+    <string name="communities">Elija Comunidad</string>
+
+    <string-array name="skippedMeals">
+         <item>0</item>
+         <item>1-3</item>
+         <item>4-6</item> 
+        <item>7-9</item>
+         <item>10+</item> 
+    </string-array>
+     <string name="title_activity_family">Actividadfamiliar</string> 
+    <string name="exit_without_saving">Salir sin guardar?</string>
+    <string name="edit">Editar</string>
+    <string name="saveSuccessful">Entrada guardada satisfactoriamente</string>
+    <string name="syncSuccessful">Sincronizacion con el servidor sigo ha sido completada satisfactoriamente</string>
+    <string name="syncNotSuccessful">No es posible sincronizar con el servidor sigo en este momento</string>
+    <string name="saveNotSuccessful">La entrada no se pudo guardar, por favor valide las entradas</string>
+    <string name="confirm_delete">Borrar entrada?</string>
+    <string name="deleteSuccessful">La entrada fue eliminada con éxito</string>
+    <string name="deleteNotSuccessful">No fue posible eliminar esta entrada</string>
+    <string name="delete">Borrar</string>
+</resources>

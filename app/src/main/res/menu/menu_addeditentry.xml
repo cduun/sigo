@@ -1,0 +1,28 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="mx.org.bamx.sigo.AddEditEntryActivity">
+
+    <item
+        android:id="@+id/deleteButton"
+        android:title="@string/delete"
+        android:icon="@drawable/ic_delete_white_24dp"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/saveButton"
+        android:title="@string/save"
+        android:icon="@drawable/ic_save_white_24dp"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="1"
+        android:title="@string/action_settings"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/log_out"
+        android:orderInCategory="3"
+        android:title="@string/log_out"
+        app:showAsAction="never" />
+</menu>

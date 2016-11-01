@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="mx.org.bamx.sigo.AddEditEntryActivity"
+    tools:showIn="@layout/activity_addeditentry">
+
+    <LinearLayout android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:text="@string/nameOfCommunity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/nameOfCommunity"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/community"
+            android:ems="10"
+            android:id="@+id/editCommunity" />
+
+        <TextView
+            android:text="@string/nameOfFamilyMember"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/name"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:hint="@string/name"
+            android:ems="10"
+            android:id="@+id/editName" />
+
+        <TextView
+            android:text="@string/hungryInBed"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/hungryInBedText"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+
+        <RadioGroup
+            android:id="@+id/hungryInBedRadioGroup"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/hungryInBedRadioYes"
+                android:layout_width="79dp"
+                android:layout_height="wrap_content"
+                android:text="@string/yes" />
+
+            <RadioButton
+                android:id="@+id/hungryInBedRadioNo"
+                android:layout_width="71dp"
+                android:layout_height="wrap_content"
+                android:text="@string/no"
+                android:checked="true"/>
+
+        </RadioGroup>
+
+        <TextView
+            android:text="@string/skippedMeals"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/skippedMeals"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+
+        <Spinner
+            android:layout_width="155dp"
+            android:layout_height="36dp"
+            android:entries="@array/skippedMeals"
+            android:entryValues="@array/skippedMeals"
+            android:spinnerMode="dialog"
+            android:id="@+id/editskippedMeals"/>
+
+    </LinearLayout>
+
+</android.support.v4.widget.NestedScrollView>
