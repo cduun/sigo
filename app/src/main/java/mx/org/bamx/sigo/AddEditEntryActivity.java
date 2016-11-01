@@ -37,6 +37,7 @@ public class AddEditEntryActivity extends Sigo {
         Bundle extras = getIntent().getExtras();
         if (extras != null) {
             int id = extras.getInt(DB_ID);
+
             SocioEconomicStudy ses = db.getEntry(Integer.toString(id));
             setTitle(getString(R.string.edit) + " " + ses.getName());
 
