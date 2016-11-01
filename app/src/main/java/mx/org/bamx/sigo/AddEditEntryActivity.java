@@ -26,7 +26,6 @@ public class AddEditEntryActivity extends Sigo {
         setContentView(R.layout.activity_addeditentry);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
-
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         getSupportActionBar().setDisplayUseLogoEnabled(true);
 
